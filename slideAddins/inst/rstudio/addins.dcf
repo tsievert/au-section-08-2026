@@ -1,0 +1,4 @@
+Name: Wrap Selection in Two Columns
+Description: Wraps the selected text in a Quarto two-column fenced-div layout
+Binding: wrap_selection_columns
+Interactive: false

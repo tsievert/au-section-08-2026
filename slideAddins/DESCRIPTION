@@ -1,0 +1,13 @@
+Package: slideAddins
+Type: Package
+Title: Personal RStudio Addins for Quarto Slide Authoring
+Version: 0.0.1
+Author: Thorbjörn Sievert
+Maintainer: Thorbjörn Sievert <tsievert@anivet.dk>
+Description: Small personal RStudio addins, e.g. wrapping a text selection
+    in a Quarto/Pandoc two-column fenced-div layout.
+License: MIT
+Encoding: UTF-8
+Imports:
+    rstudioapi
+RoxygenNote: 7.3.1
