@@ -1,7 +1,10 @@
 ---
 title: The Postdoc Experience
-subtitle: A subtitle test2
-format: aarhus-revealjs
+subtitle: An insecure career stage, from Europe to Aarhus
+format:
+  aarhus-revealjs:
+    width: 1050
+    height: 590
 html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
@@ -16,157 +19,232 @@ presenter:
   institute: Aarhus University
 bibliography: references.bib
 ---
+## Postdoc appreciation week
 
-## What is a postdoc?
+:::: {.columns}
 
-A researcher with a doctorate, working on a fixed-term contract or stipend, not yet counted as independent staff [@eurodoc2025].
+::: {.column width="50%"}
+![](comics/postdoc-week.jpg)
+:::
 
-There is no consensual definition across institutions or countries. The label covers people two months and twenty years past their PhD.
+::: {.column width="50%"}
+> This September, Aarhus University will celebrate Postdoc Appreciation Week (PAW), a week dedicated to recognising the valuable contributions of postdoctoral researchers and strengthening connections across the AU community.
 
-## Why this stage exists
+[AU Postdoc Appreciation Week](https://health.medarbejdere.au.dk/en/display/artikel/postdoc-appreciation-week-16-18-september)
 
-Postdoctoral positions are meant to bridge doctoral training and an independent research career: time to publish, build a network, and win the grants a permanent post requires.
+:::
 
-Nature describes postdocs as "the overlooked segment of the scientific workforce" [@researchNaturePostDoctoralSurvey2023].
+::::
 
-## Who becomes a postdoc
+## Academia's drudge labourers {.quote}
 
-Of the 3,838 respondents to Nature's 2023 global survey: 51% women, 47% men; 27% an ethnic or racial minority in their country of work; 61% working outside their home country [@researchNaturePostDoctoralSurvey2023].
+> The data "paint postdocs as academia's drudge labourers: overworked, underpaid, appointed on precarious short-term contracts and lacking recognition for their efforts" [@nordling2023optimism].
 
-Regionally, the sample skews toward Europe (45%) and North and Central America (38%), with Asia, Africa, Australasia, and South America together making up the rest [@researchNaturePostDoctoralSurvey2023].
+> "A distinctive feature of today's academia is its hypercompetitive environment and culture, which often leads to aggressive and harmful working environments. Postdoctoral researchers, in particular, are under immense pressure to continually compete and perform at extreme levels" [@eurodoc2025].
 
-## Job satisfaction, overall
+<!-- > Post-doctoral researchers often find themselves in a "career limbo" that may persist for decades, "a long-term holding pattern of short, fixed-term contracts offering little job security and sparse benefits, poor compensation, high workloads, poor resources and support" [@eurodoc2025]. -->
 
-55% of postdocs describe themselves as satisfied with their current position, down slightly from 60% in 2020 [@researchNaturePostDoctoralSurvey2023].
+## The scale of the problem
 
-Satisfaction varies by geography: 68% satisfied in Australasia and 58% in Europe, against 38% dissatisfied in Africa and 34% in North and Central America [@researchNaturePostDoctoralSurvey2023].
+A 2026 meta-analysis pooling 228 samples and 138,446 early-career researchers found that:
+
+- 29.9% report elevated psychological distress across outcomes
+- depressive symptoms roughly two to three times, and anxiety symptoms three to five times, higher than in age-matched general-population samples [@dreisoerner2026mentalhealth]
+
+
+## A structural pattern
+
+- Prevalence and severity were comparable across gender, country, discipline, and career stage
+- Small but significant effects for age and prior mental-health history
+- Most frequently cited driver: a mismatch between the growing number of PhD graduates and the limited number of permanent academic positions [@dreisoerner2026mentalhealth]
+
+
 
 ## What satisfies and what doesn't
 
-| Most satisfied with | % satisfied | Least satisfied with | % satisfied |
+| Most satisfied with | % satisfied | Least satisfied with | % dissatisfied |
 |---|---|---|---|
-| Interest in the work | 75% | Job security | 29% |
-| Degree of independence | 73% | Career-advancement opportunities | 34% |
-| Interesting projects | 72% | Availability of funding | 37% |
-| Feeling safe in the workplace | 72% | Management and leadership | 39% |
+| Interest in the work | 75% | Job security | 56% |
+| Degree of independence | 73% | Career-advancement opportunities | 49% |
+| Interesting projects | 72% | | |
 
 The pattern has held since 2020: postdocs like the work itself and dislike its stability [@researchNaturePostDoctoralSurvey2023].
 
-## The contract treadmill
-
-41.5% of European postdocs have already held three or more temporary research contracts. 78.7% have less than two years left on their current one. Only 1.2% hold a permanent contract [@eurodoc2025].
-
-## Access to social security
-
-Only 20% of European postdocs have full access to healthcare, parental leave, pension, sick leave, and unemployment benefits combined. 13.1% have none of the five [@eurodoc2025].
-
-The gap runs north to south: 32.5% of postdocs in Western Europe have full coverage, against 9.5% in Southern Europe [@eurodoc2025].
-
-## Salary and the second job
-
-Most postdocs report earning $50,000–$79,999 a year, but the range is wide: 88% in Australasia and 86% in North and Central America earn over $50,000, while 78% in Africa and 78% in South America earn under $30,000 [@researchNaturePostDoctoralSurvey2023].
-
-10% now hold a second job, up from 6% in 2020, mostly for extra income (72%) and concentrated in Africa (33%) and South America (28%) [@researchNaturePostDoctoralSurvey2023]. Only 20% can save what they want to, down from 29% in 2020 [@researchNaturePostDoctoralSurvey2023].
-
-## Mobility as the default
-
-74% of European postdocs have lived in two or more countries since their master's degree; 54% of Nature's respondents moved to a new country specifically for their current postdoc [@eurodoc2025; @researchNaturePostDoctoralSurvey2023].
-
-Mobility is uneven: postdocs in Northern and Western Europe move the most, while 56% of those in Southern Europe stay at the institution where they did their PhD [@eurodoc2025].
-
-## The two-body problem
-
-16% of European postdocs live apart from their partner or commute between countries for work [@eurodoc2025].
-
-> "We have one big move left. We won't move any more for postdocs." — Manuel Chevalier, after eight years of postdocs in three countries [@nordling2023thirties]
-
-## Postdocs in their thirties
-
-Postdocs aged 31–40 are more negative than those under 30 about job prospects, job security, and work–life balance, and more likely to report mental-health challenges [@nordling2023thirties].
-
-Dissatisfaction also compounds with time in the role: 34% of those on their third or fourth postdoc report dissatisfaction, against 24% of those on their first [@nordling2023thirties].
-
-## Mentorship and career support
-
-Only 23% of European postdocs feel their institution gives them enough guidance on career options, and 37% report no career support office at all [@eurodoc2025].
-
-Supervisor contact time is often thin: 49% of postdocs get less than an hour a week, though this has improved slightly since 2020 (55%) [@researchNaturePostDoctoralSurvey2023].
-
-## Discrimination and harassment
-
-24% of postdocs report experiencing discrimination or harassment in a current or previous position — unchanged from 2020. Bullying is the most common form [@researchNaturePostDoctoralSurvey2023].
-
-Those who are female, an ethnic minority in their country of work, or living with a disability are consistently more likely to report it [@researchNaturePostDoctoralSurvey2023].
-
-## Mental health and work-life balance
-
-52% of postdocs have considered leaving science because of anxiety, depression, or related concerns [@researchNaturePostDoctoralSurvey2023]. In Europe, 53% report an imbalance between work and non-work life [@eurodoc2025].
-
-The reasons cluster around precarity itself: uncertain job opportunities (58.5%), temporary contracts (58.6%), and lack of stable income (41.9%) [@eurodoc2025].
+<!-- FIGURE: Nature Postdocs Survey 2023_report_v1.pptx.pdf, p. 13 ("Postdocs are most satisfied with their interest in their work") and p. 14 ("Postdocs are least satisfied with their job security") — paired bar charts -->
 
 ## The puzzle {.statement}
 
 65% of postdocs plan to base their career in academia. It is "extremely unlikely that 65% will end up in tenured or in long-term academic positions in their fields" [@nordling2023optimism].
 
-## Industry versus academia
+![](comics/phd081409s.gif){fig-align="center" width="70%" .nostretch style="margin-top: 1em;"}
 
-::: {.columns}
+# Europe and the Nordics
+
+## The contract treadmill
+
+:::: {.columns}
 
 ::: {.column width="50%"}
-**Academia**
 
-- 54% satisfied
-- 5% earn $80,000–$110,000
-- 12% avoid all overtime
-- 74% feel physically safe at work
+
+- 41.5% of European postdocs have already held three or more temporary research contracts
+- 78.7% have less than two years left on their current one
+- Only 1.2% hold a permanent contract [@eurodoc2025]
+
+:::
+
+
+::: {.column width="50%"}
+![](comics/No-space-lasers-2.png){fig-align="center" width="90%" .nostretch }
+
+:::
+
+::::
+<!-- FIGURE: Eurodoc-Postdoc-Survey-Report-2025.pdf, Figure 13 (p. 42) — bar charts of a) number of prior temporary contracts and b) years remaining on current contract -->
+
+
+## Mobility as the default
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- 74.4% of European postdocs have lived in two or more countries since their master's degree [@eurodoc2025]
+- 54% of Nature's respondents have moved country to take up a postdoc [@researchNaturePostDoctoralSurvey2023]
+- Mobility is uneven: postdocs in Northern and Western Europe move the most, while 55.8% of those in Southern Europe stay at the institution where they did their PhD [@eurodoc2025]
+
 :::
 
 ::: {.column width="50%"}
-**Industry**
 
-- 65% satisfied
-- 23% earn $80,000–$110,000
-- 20% avoid all overtime
-- 83% feel physically safe at work
+![](comics/Hermit-animals-1.png){fig-align="center" width="100%" .nostretch }
+
 :::
 
 ::::
 
-Source: [@nordling2023optimism]
+<!-- FIGURE: Eurodoc-Postdoc-Survey-Report-2025.pdf, section 3.1 (p. 42) — no numbered figure in the main text; the appendix tables for Q7 (institutional mobility) and Q35 (international mobility) break this down by region, field, and academic age if a chart is needed -->
 
-## Career optimism after COVID
+## The two-body problem {.quote}
 
-Optimism about future careers rose from 28% of respondents in 2020 to 41% in 2023, and COVID-19 fell from the top concern (40%) to a minor one (8%) [@nordling2023optimism].
+16% of European postdocs live apart from their partner or commute between countries for work [@eurodoc2025].
 
-What replaced it: competition for funding, scarce jobs in one's field, and pressure to sacrifice personal time for work [@nordling2023optimism].
+> "We have one big move left. We won't move any more for postdocs," said Manuel Chevalier, after eight years of postdocs in three countries [@nordling2023thirties].
 
-## The recruitment paradox {.question}
+![](comics/phd082613s.gif){fig-align="center" width="60%" .nostretch style="margin-top: 0.1em;"}
 
-If postdocs are this dissatisfied, why are institutions struggling to fill the positions?
+## Mentorship and career support
 
-44% of postdocs are aware of struggles to fill postdoc vacancies in their own workplace, most often citing a lack of career stability as the reason [@researchNaturePostDoctoralSurvey2023].
+- Only 23% of European postdocs feel their institution gives them enough guidance on career options [@eurodoc2025]
+- 36.9% report no career-support office at all; another 23.4% don't know if one exists [@eurodoc2025]
 
-## Postdocs organizing
 
-Postdocs in the United States and elsewhere have gone on strike at several universities, and discussions of a national postdoc union are ongoing [@nordling2023optimism].
+<!-- FIGURE: Eurodoc-Postdoc-Survey-Report-2025.pdf, Figure 24 (p. ~55) — perceived availability of career guidance, and Figure 25 (p. ~56) — availability of a career-support office -->
 
-> "There's a lot of work to be done. And none of us can do it alone." — Tim MacKenzie, genetics postdoc, Stanford [@nordling2023optimism]
+## Mental health and work-life balance {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- 52% of postdocs have considered leaving science because of anxiety, depression, or related concerns [@researchNaturePostDoctoralSurvey2023]
+- In Europe, 52.9% report an imbalance between work and non-work life; 29% rate their balance as bad or very bad [@eurodoc2025]
+- Among those most affected, reasons cluster around precarity: uncertain job opportunities (58.5%), temporary contracts (58.6%), and lack of stable income (41.9%) [@eurodoc2025]
+
+:::
+
+::: {.column width="50%"}
+![](comics/job-prospects.webp){fig-align="center" width="80%" .nostretch }
+
+:::
+
+::::
+<!-- FIGURE: Eurodoc-Postdoc-Survey-Report-2025.pdf, Figure 37 (p. ~66) — pie chart of respondents' perceived work-life balance -->
 
 ## What stable employment could look like
 
-Standard employment contracts of a reasonable minimum length, such as two years or longer, rather than serial short-term renewal [@eurodoc2025].
+- Standard employment contracts of a reasonable minimum length, such as two years or longer, rather than serial short-term renewal [@eurodoc2025]
+- Mandatory Sustainable Career Plans for research institutions, modeled on the European Commission's Gender Equality Plans [@eurodoc2025]
 
-Eurodoc proposes mandatory Sustainable Career Plans for research institutions, modeled on the European Commission's Gender Equality Plans [@eurodoc2025].
+# Aarhus University
 
-## What a fair career pathway looks like
+## Junior VIP and PhD: a job-category gap
 
-Clear roles, rights, and responsibilities from the start of the contract, and recognition of postdocs as a distinct staff category rather than a residual one [@eurodoc2025].
+At AU, "Junior VIP" covers Assistant Professors, Postdocs, and Researchers, the same career band as Eurodoc's respondents [@auwpa2025]:
 
-A common, transparent research career framework across Europe, recognizing the postdoc years as professional experience and opening flexible pathways in and out of academia [@eurodoc2025].
+| | Senior VIP | Junior VIP | Ph.D. | Total |
+|---|---|---|---|---|
+| Happy with job prospects | 3.7 | **3.2** | 3.5 | 3.6 |
+| Motivated and engaged | 4.2 | **4.0** | 4.1 | 4.1 |
 
-## Open questions {.question}
+<small>n = 7,172, 78% response rate.</small>
 
-If the field can only place one in five postdocs permanently, what should the other four be told, and by whom?
+## Junior VIP and PhD: a job-category gap (continued)
+
+| | Senior VIP | Junior VIP | Ph.D. | Total |
+|---|---|---|---|---|
+| Task/time balance | 3.0 | 3.5 | 3.4 | 3.5 |
+| Rarely stressed to the point of unwellness | 3.3 | 3.4 | **3.2** | 3.6 |
+
+Junior VIP report the lowest job-prospect satisfaction of any staff category at AU; PhD students report the lowest stress score.
+
+<!-- FIGURE: APV_2025_-_Aarhus_Universitet_-_2025_(_8_17_26).pdf, pp. 42-45 ("Results according to job categories") — full job-category comparison tables -->
+
+## The under-40 pattern
+
+Broken down by age, job-prospect satisfaction dips in the 30-39 band specifically, below both the under-30 and the 40-49 groups, before recovering with seniority [@auwpa2025]:
+
+| | Under 30 | 30-39 | 40-49 | 50-59 | 60+ | Total |
+|---|---|---|---|---|---|---|
+| Happy with job prospects | 3.6 | **3.4** | 3.6 | 3.7 | 3.9 | 3.6 |
+
+This mirrors qualitative reporting elsewhere that postdocs in their thirties are more negative than those under 30 about job prospects, job security, and work-life balance [@nordling2023thirties].
+
+<!-- FIGURE: APV_2025_-_Aarhus_Universitet_-_2025_(_8_17_26).pdf, pp. 46-49 ("Results according to age") — full age-group comparison tables -->
+
+# ANIVET
+
+## The local psychological environment
+
+Two of four faculty-specific items score below the department's overall average [@huswpa2025]:
+
+- 3.2 for the department working with the psychological work environment "in a relevant manner", the lowest-scoring item
+- 3.3 for feeling adequately supported to pursue external funding without undue stress
+
+<!-- FIGURE: APV_2025_-_1037_Institut_for_Husdyr-_og_Veterin_rvidenskab_-_2025_(_8_12_26).pdf, p. 19 ("Faculty specific questions") -->
+
+## Junior VIP and PhD in the department
+
+The Junior VIP dip is sharper locally than at AU overall [@huswpa2025]:
+
+| | Senior VIP | Junior VIP | Ph.D. | Total |
+|---|---|---|---|---|
+| Motivated and engaged | 4.3 | **3.8** | 4.3 | 4.1 |
+| Rarely stressed to the point of unwellness | 3.2 | **3.1** | 3.3 | 3.4 |
+| Receive information on decisions | 3.4 | 3.4 | 3.9 | 3.3 |
+
+Junior VIP is the only group markedly less motivated than the rest of the department (3.8 vs. 4.1-4.3 elsewhere) and reports the lowest stress score.
+
+<small>Source: ANIVET WPA 2025, "Results according to job categories," pp. 48-49. n = 187, 79% response rate.</small>
+
+<!-- FIGURE: APV_2025_-_1037_Institut_for_Husdyr-_og_Veterin_rvidenskab_-_2025_(_8_12_26).pdf, pp. 48-50 ("Results according to job categories") -->
+
+## The under-40 pattern in the department
+
+By the 30-39 band, before anyone in the department turns 40, scores on information flow, recognition, and workload have already fallen from the under-30 level and stay low [@huswpa2025]:
+
+| | Under 30 | 30-39 | 40-49 | 50-59 | 60+ | Total |
+|---|---|---|---|---|---|---|
+| Receive information on decisions | 3.8 | **3.2** | 3.2 | 3.2 | 3.3 | 3.3 |
+| Task/time balance | 3.4 | 3.0 | **2.7** | 2.9 | 3.0 | 3.0 |
+| Feel sufficiently recognised | 4.0 | 3.4 | **3.3** | 3.9 | 3.5 | 3.6 |
+
+<small>Source: ANIVET WPA 2025, "Results according to age," pp. 51-53.</small>
+
+<!-- FIGURE: APV_2025_-_1037_Institut_for_Husdyr-_og_Veterin_rvidenskab_-_2025_(_8_12_26).pdf, pp. 51-53 ("Results according to age") -->
+
+## The open question {.question}
+
+Structural, not individual: what can universities do?
 
 ## References
 

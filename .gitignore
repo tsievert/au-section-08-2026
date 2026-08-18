@@ -55,6 +55,7 @@ rsconnect/
 pdfs/
 comics/
 figures/
+pdf_text/
 
 # Posit Assistant memory file
 AGENTS.md
