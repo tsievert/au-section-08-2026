@@ -76,7 +76,17 @@ The pattern has held since 2020: postdocs like the work itself and dislike its s
 
 65% of postdocs plan to base their career in academia. It is "extremely unlikely that 65% will end up in tenured or in long-term academic positions in their fields" [@nordling2023optimism].
 
-![](comics/phd081409s.gif){fig-align="center" width="70%" .nostretch style="margin-top: 1em;"}
+
+<img
+  src="https://phdcomics.com/comics/archive/phd081409s.gif"
+  onerror="this.onerror=null; this.src='comics/phd081409s.gif';"
+  alt="PHD Comics strip"
+  class="nostretch"
+  style="display: block; width: 70%; margin: 1em auto 0 auto;"
+>
+
+
+
 
 # Europe and the Nordics
 
@@ -95,7 +105,14 @@ The pattern has held since 2020: postdocs like the work itself and dislike its s
 
 
 ::: {.column width="50%"}
-![](comics/No-space-lasers-2.png){fig-align="center" width="90%" .nostretch }
+
+<img
+  src="https://errantscience.com/wp-content/uploads/No-space-lasers.png"
+  onerror="this.onerror=null; this.src='comics/No-space-lasers-2.png';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 90%; margin:0 auto 0 auto;"
+>
 
 :::
 
@@ -117,7 +134,14 @@ The pattern has held since 2020: postdocs like the work itself and dislike its s
 
 ::: {.column width="50%"}
 
-![](comics/Hermit-animals-1.png){fig-align="center" width="100%" .nostretch }
+<img
+  src="https://errantscience.com/wp-content/uploads/Hermit-animals-1.png"
+  onerror="this.onerror=null; this.src='comics/Hermit-animals-1.png';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 100%; margin:0 auto 0 auto;"
+>
+
 
 :::
 
@@ -131,7 +155,15 @@ The pattern has held since 2020: postdocs like the work itself and dislike its s
 
 > "We have one big move left. We won't move any more for postdocs," said Manuel Chevalier, after eight years of postdocs in three countries [@nordling2023thirties].
 
-![](comics/phd082613s.gif){fig-align="center" width="60%" .nostretch style="margin-top: 0.1em;"}
+<img
+  src="https://phdcomics.com/comics/archive/phd082613s.gif"
+  onerror="this.onerror=null; this.src='comics/phd082613s.gif';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 60%; margin:0 auto 0 auto;"
+>
+
+
 
 ## Mentorship and career support
 
@@ -153,7 +185,16 @@ The pattern has held since 2020: postdocs like the work itself and dislike its s
 :::
 
 ::: {.column width="50%"}
-![](comics/job-prospects.webp){fig-align="center" width="80%" .nostretch }
+
+<img
+  src="https://nitter.net/pic/orig/media%2FGTVv5r9WoAA4SK1.jpg"
+  onerror="this.onerror=null; this.src='comics/job-prospects.webp';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 80%; margin:0 auto 0 auto;"
+>
+
+
 
 :::
 
@@ -207,7 +248,15 @@ Two of four faculty-specific items score below the department's overall average 
 :::
 
 ::: {.column width="50%"}
-![](comics/funding-interests.webp){fig-align="center" width="80%" .nostretch }
+<img
+  src="https://errantscience.com/wp-content/uploads/220317_-_Wedge.png"
+  onerror="this.onerror=null; this.src='comics/funding-interests.webp';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 80%; margin:0 auto 0 auto;"
+>
+
+
 
 
 :::
@@ -243,11 +292,18 @@ Structural, not individual: what can universities do?
 :::
 
 ::: {.column width="50%"}
-![](comics/contract_renew.webp){fig-align="center" width="80%" .nostretch style="margin-top: 0.1em;"}
+<img
+  src="https://nitter.net/pic/orig/media%2FGFK117_X0AAZXZi.jpg"
+  onerror="this.onerror=null; this.src='comics/contract_renew.webp';"
+  alt="Errant Science"
+  class="nostretch"
+  style="display: block; width: 80%; margin:0 auto 0 auto;"
+>
+
+
 :::
 
 ::::
-
 
 
 ## References
