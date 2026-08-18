@@ -130,3 +130,89 @@ html * {
   color: $body-color;
   //margin-top: 1.25em;
 }
+
+// pandoc markdown tables render cell content as plain text (no <p> wrapper),
+// so they don't inherit the 20pt override above and otherwise fall back to
+// reveal.js's larger default font size. Match table text to paragraph text
+// so tables don't require a per-slide `.smaller` class to look reasonable.
+.reveal table,
+.reveal table th,
+.reveal table td {
+  font-size: 15pt;
+}
+
+// the auto-generated bibliography (the `#refs` div created from a
+// `references: ...` YAML field or a `::: {#refs} :::` block) otherwise
+// inherits the 20pt paragraph size, which is too large for a dense
+// reference list.
+.reveal #refs {
+  font-size: 16pt;
+}
+
+// `.question` slides keep an ordinary heading at the top (like any other
+// slide), but the question itself is the point of the slide, so it's set
+// apart from normal body text: centered, enlarged, and given room to sit
+// clearly on its own rather than reading as a trailing paragraph.
+.reveal .slides section.question p {
+  text-align: center;
+  font-size: 32pt;
+  margin-top: 1.5em;
+}
+
+// like table cells above, list items aren't <p> elements, so without an
+// explicit override they fall back to reveal.js's larger default font size
+// instead of matching the theme's 20pt body text. Nested list items (any
+// list inside a list item) are sized down once, rather than shrinking
+// further with each additional nesting level.
+.reveal ul,
+.reveal ol,
+.reveal li {
+  font-size: 20pt;
+}
+
+.reveal li li {
+  font-size: 16pt;
+}
+
+// quarto/reveal.js's built-in `.smaller` slide class scales font-size in em
+// units, which the absolute pt sizes above ignore. Give `.smaller` slides
+// their own explicit (smaller) pt sizes so the class still has an effect.
+.reveal section.smaller ul,
+.reveal section.smaller ol,
+.reveal section.smaller li {
+  font-size: 16pt;
+}
+
+.reveal section.smaller li li {
+  font-size: 13pt;
+}
+
+// footer: keep the original centered presenter name/institute block, but
+// pull the date out of the centered flow into its own bottom-right corner
+// label. `position: absolute` removes it from the block that gets centered,
+// so the remaining centered content is just the two presenter lines.
+.reveal .au-meta-date {
+  position: absolute;
+  right: 0.8em;
+  bottom: 0.2em;
+  font-size: 14px;
+}
+
+// the footer's date is wrapped in a <p>, which would otherwise inherit the
+// oversized `.reveal p` font-size above
+.reveal .footer p {
+  font-size: inherit;
+  margin: 0;
+}
+
+// on scrollable slides (dense tables, the auto-generated references list),
+// reserve space at the bottom of the scroll area so the last line clears
+// the footer once scrolled into view. border-box keeps this padding inside
+// the section's existing (fixed, logical) height rather than growing it.
+// This is expressed in em/logical units so it scales together with the
+// slide's own content -- it doesn't touch `.reveal`'s box, so it has no
+// effect on the deck's overall scale or the progress bar's position.
+.reveal .slides section.scrollable {
+  box-sizing: border-box;
+  padding-bottom: 5em;
+}

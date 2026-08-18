@@ -10,7 +10,7 @@ contributes:
       theme: [default, aarhus.scss]
       footer: |
         <div class = "au-meta-date">{{< meta date >}}</div>
-        <div class = "au-meta-presenter">{{< meta presenter.name >}} <\br>
+        <div class = "au-meta-presenter">{{< meta presenter.name >}}<br>
         {{< meta presenter.institute >}}</div>
       logo: au-logo-uk-var2-blue.png
       template-partials:
